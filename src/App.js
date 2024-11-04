@@ -29,10 +29,10 @@ function App() {
     setCity(""); // Clear the input field
   };
   
-  const renderDate = () => {
-    let now = new Date();
-    return dateFormat(now, "DD-MM-YYYYdS, h:MM TT");
-  };
+ const renderDate = () => {
+  let now = new Date();
+  return dateFormat(now, "dd-mm-yyyy, h:MM TT");
+};
 
   return (
     <div className="app">
